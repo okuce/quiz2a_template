@@ -18,23 +18,23 @@ def cikti_test(satislar,iadeler):
 
 
 
-cikti_test(satislar = [8,6,4,10], iadeler = [1,1,2,3])
-cikti_test(satislar = [11,5,13,7], iadeler = [2,2,2,2])
+#cikti_test(satislar = [8,6,4,10], iadeler = [1,1,2,3])
+cikti_test(satislar = [11,5,13,7], iadeler = [4,3,2,1])
 
 """
 Programin ekrana basmasi gereken çıktılar:
+nereden,nereye,plaka,boş koltuk, dolu koltuk şeklinde olacak
 
-cikti_test(satislar = [8,6,4,10],iadeler = [1,1,2,3]) çağrısı için 
-Ankara->Osmaniye güzergahında 06T9876 plakalı otobüste 3 boş 7 dolu koltuk bulunmaktadır.
-Osmaniye->Ankara güzergahında 80TT458 plakalı otobüste 1 boş 4 dolu koltuk bulunmaktadır.
-İstanbul->Osmaniye güzergahında 06RE876 plakalı otobüste 10 boş 2 dolu koltuk bulunmaktadır.
-Osmaniye->İstanbul güzergahında 34UY887 plakalı otobüste 3 boş 5 dolu koltuk bulunmaktadır.
+cikti_test(satislar = [8,6,4,10],iadeler = [1,1,2,3]) çağrısı için
 
+Ankara,Osmaniye,06T9876,3,7
+Osmaniye,Ankara,80TT458,1,4
+İstanbul,Osmaniye,06RE876,10,2
+Osmaniye,İstanbul,34UY887,3,5
 
-cikti_test(satislar = [11,5,13,7],iadeler = [2,2,2,2]) çağrısı için
-Ankara->Osmaniye güzergahında 06T9876 plakalı otobüste 2 boş 8 dolu koltuk bulunmaktadır.
-Osmaniye->Ankara güzergahında 80TT458 plakalı otobüste 2 boş 3 dolu koltuk bulunmaktadır.
-İstanbul->Osmaniye güzergahında 06RE876 plakalı otobüste 2 boş 10 dolu koltuk bulunmaktadır.
-Osmaniye->İstanbul güzergahında 34UY887 plakalı otobüste 3 boş 5 dolu koltuk bulunmaktadır.
-
+cikti_test(satislar = [11,5,13,7], iadeler = [4,3,2,1]) çağrısı için
+Ankara,Osmaniye,06T9876,4,6
+Osmaniye,Ankara,80TT458,3,2
+İstanbul,Osmaniye,06RE876,2,10
+Osmaniye,İstanbul,34UY887,2,6
 """
